@@ -1,0 +1,9 @@
+﻿Name,Age,Gender,LF,Location,Drugs,Similar_hobbies,Importance_Factor,Looks,Party,Vert,Username
+Jim,12,M,M,45251,No,Yes,"1,4,5,6,2,3,7",8,No,Extra,aaaaaaa
+Bertha,51,F,M,45112,No,No,"4,3,2,5,7,8,1",7.5,Mixed,Intra,bbbbbbb
+Chris,15,M,F,45234,No,Yes,"7,5,6,3,4,2,1",8,Yes,Intra,ccccccc
+Chedda,13,F,M,67889,Yes,Yes,"3,2,4,1,5,7,1",7.5,No,Extra,dddddd
+Michelle,15,F,M,45244,Mixed,Yes,"6,7,4,1,3,5,2",9,Mixed,Extra,eeeeeee
+Brick,16,M,F,2243,Yes,No,"5,4,1,3,5,6,2",5,Yes,Intra,fffffff
+Stemmy,17,F,M,2255,No,Yes,"4,3,1,2,4,5,6",8,No,Intra,gggggg
+Janet,16,F,M,45224,No,Yes,"7,6,5,3,2,4,1",8,Yes,Extra,hhhhhh
