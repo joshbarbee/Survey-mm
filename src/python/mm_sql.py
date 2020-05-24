@@ -3,7 +3,7 @@ import mysql_creds as sql_d
 import re
 
 def aggregate(formatted_dict,matrix):
-    database = mysql.connector.connect(host = sql_d.host,user = sql_d.user,passwd = sql_d.password,database = sql_d.database)
+    database = mysql.connector.connect(host = sql_d.host, user = sql_d.user, passwd = sql_d.password, database = sql_d.database)
 
     cursor = database.cursor()
     sql = "INSERT INTO matched (name, username, matched_with) VALUES (%s, %s, %s)"

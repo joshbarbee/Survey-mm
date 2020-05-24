@@ -107,7 +107,7 @@ def main_parser(matrix):
             for i in v:
                 mf_value = (moderate_factors(k,i,matrix))*2/3
                 lf_value = (loose_factors(k,i,matrix))*1/3
-                t_list.append((i,mf_value+lf_value))
+                t_list.append((matrix["Username"][i],mf_value+lf_value))
             purged_dict[k] = t_list
     print(purged_dict)
     return purged_dict

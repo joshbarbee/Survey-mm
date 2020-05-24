@@ -1,0 +1,59 @@
+.center-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vmin !important;
+}
+
+.header-1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 8vmin;
+}
+
+.subheader{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vmin;
+}
+
+.abs-almost{
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.bottom-header{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #0f0f0f;
+    
+}
+
+#subtext{
+    color: #f8f9fa;
+    font-size: 1vmin;
+}
+
+a{
+    color: #f8f9fa;
+    font-size: 2vmin;
+}
+body{
+    background-color: #343a40 ;
+    color: white !important;
+}

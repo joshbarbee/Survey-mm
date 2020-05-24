@@ -63,6 +63,7 @@ def extra_intravert(matrix):
         if v == "Intra":
             matrix["Vert"][k] = 1
     return matrix["Vert"]
+
 #multithread processes. program is natively ran on a 8ct/8t cpu so take advantage of all 8ct/t minimizes ttl by 60% or so 
 def modifier(filea, matrix):
     with concurrent.futures.ThreadPoolExecutor() as executor:
