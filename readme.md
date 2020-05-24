@@ -11,4 +11,4 @@ The task process is as follows:
 4. then imported into the comparision file
 5. weighs strict factors first, then runs any eligible canidates on a moderate/loose factor scale
 6.  uses a custom made algorithm to compare two lists, analyzing where they differ. requires both lists to be the same length and contain same elements
-7.  then sends it to a mysql server hosted on an aws vm, which connects to a webserver via php
+7.  then sends it to a mysql server hosted on an aws vm, which connects to a webserver via flask
