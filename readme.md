@@ -1,5 +1,3 @@
-This is the readme file for Josh Barbee (@slappa_josh)'s Tiktok's matchmaker. 
-
 The task process is as follows:
 - 
 1. data is taken from a google survey form, imported into csv form
