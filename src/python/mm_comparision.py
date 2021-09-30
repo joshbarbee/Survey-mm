@@ -1,4 +1,3 @@
-#todo: add tolerances -  so like someone could say they are atheist, but dont mind people who are kinda religious
 import mm_ci_ag as cm 
 
 def abs_factors(p1,p2,matrix):
@@ -14,9 +13,7 @@ def abs_factors(p1,p2,matrix):
     return age_approximate(matrix["Age"][p1],matrix["Age"][p2]) == True and gender_match(matrix["Gender"][p1], matrix["Gender"][p2], matrix["LF"][p1], matrix["LF"][p2]) == True and zip_match(matrix["Location"][p1], matrix["Location"][p2]) == True
 
 def moderate_factors(p1,p2,matrix):
-    #gets scores for drugs, looks, and hobbies and weights them equally, to a scale of 1
     match_score = 0
-    d_score = z_o_t(matrix["Drugs"][p1],matrix["Drugs"][p2])
     s_score = one_zero_weighed(matrix["Similar_hobbies"][p1], matrix["Similar_hobbies"][p2])
     l_score = looks(matrix["Looks"][p1], matrix["Looks"][p2])
     match_score = (d_score+s_score+l_score)/3
